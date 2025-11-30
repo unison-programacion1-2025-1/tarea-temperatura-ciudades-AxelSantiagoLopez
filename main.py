@@ -34,7 +34,7 @@ max_date = df_celsius['Phoenix'].idxmax()
 print(f"El día con la temperatura máxima en Phoenix fue: {max_date}")
 print("La temperatura máxima registrada en Phoenix fue de:", round(max_temp, 2), "°C")
 
-# Temperatura promedio en 2016
+
 phoenix_2016 = df_celsius['Phoenix']['2016']
 mean_temp_2016 = phoenix_2016.mean()
 print("La temperatura promedio durante 2016 en Phoenix fue de:", round(mean_temp_2016, 2), "°C")
